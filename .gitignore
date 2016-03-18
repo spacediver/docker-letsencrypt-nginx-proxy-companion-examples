@@ -1,0 +1,13 @@
+### Miscellaneous
+.Spotlight-V100
+.Trashes
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+### IDE
+.idea/
+*.cache
+
+volumes/proxy/certs/*
