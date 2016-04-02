@@ -35,7 +35,7 @@ docker run -d \
 # This an example service that will get picked up and served by the reverse proxy.
 # Make sure you change all the default values in this file and in volumes/examples/simple-site
 echo "Starting simple-site nginx example..."
-docker run -d -p 8080:80 \
+docker run -d \
     --name simple-site \
     -e "VIRTUAL_HOST=site.example.com" \
     -e "LETSENCRYPT_HOST=site.example.com" \
