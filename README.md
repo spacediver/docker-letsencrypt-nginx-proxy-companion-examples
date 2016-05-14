@@ -33,7 +33,7 @@ Replace all the default "site.example.com" and "mail@example.com" occurrences in
 First, you'll need to create an external docker network named 'nginx-proxy' (or change the name in compose file).
 
 ```
-docker network -d bridge nginx-proxy
+docker network create -d bridge nginx-proxy
 ```
 
 You'll only need to do this once.
